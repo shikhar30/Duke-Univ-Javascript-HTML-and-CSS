@@ -1,3 +1,5 @@
+
+//defining a square portion where new image can be made
 function square(pixel,x,y)
 {
     var dx=pixel.getX()-y;
@@ -9,6 +11,7 @@ function square(pixel,x,y)
 
 var image=new SimpleImage(300,300)
 
+/*colors can be adjusted by varying the values below, each different calue gives a new image. and create any new image accordingly*/
 for(var pix of image.values())
 {
     
