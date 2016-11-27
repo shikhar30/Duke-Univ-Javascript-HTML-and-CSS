@@ -1,0 +1,52 @@
+<html>
+  <body>
+  <h1>Creating an Image from scratch</h1>
+  <h3>Here is the image</h3>
+  <img src=https://farm8.staticflickr.com/7690/27044015156_0648fe3b5e_m.jpg>
+
+
+    <h3>Details</h3>
+  <p> The image is done by using of javascript, you define a function, either a square or circle, or anything and try new new things and apply maths. pass in the image and desired pixel values as parameters <strong>function square(pixel,x,y)</strong></p>
+    <p>
+    Then create a new image of size 300,300for every pixel check the value and change accrordingly to find new types of designs, and for creation of pics.
+      <b>var image=new SimpleImage(300,300)</b>
+  </p>
+  <p>Finally to give a decent look add a <b>Math.random</b> fucntion to add the yellow dots by setting
+    <strong>setRed(255) </strong>&<strong> setGreen(255)</strong>. After that print the following image</p>
+
+
+    <h3>Code</h3>
+    <pre>function square(pixel,x,y)
+{
+    var dx=pixel.getX()-y;
+    var dy=pixel.getY()-x;
+    return(dy*dx);
+}
+var image=new SimpleImage(300,300)
+for(var pix of image.values())
+{
+if(square(pix,100,100)<50)
+{
+    pix.setRed(255-4*square(pix,100,100));
+
+}
+else if(square(pix,100,100)>150)
+{
+    pix.setGreen(255-7*square(pix,150,150));
+
+}
+else if(square(pix,100,100)<150)
+{
+    pix.setRed(255-9*square(pix,200,200));
+    pix.setBlue(255);
+}
+if(Math.random()>0.96)
+{
+    pix.setRed(255);
+    pix.setGreen(255);
+}
+pix.setBlue(pix.getY()-pix.getX())
+}
+      print(image);</pre>
+  </body>
+</html>

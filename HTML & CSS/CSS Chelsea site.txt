@@ -1,0 +1,118 @@
+<html>
+  <body>
+    <title>Chelsea Football Club</title>
+    <h1>ChelseaFC <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" width=8%></h1>
+    <h3>History</h3>
+    <div class="font">
+    <p>In 1904, Gus Mears acquired the Stamford Bridge athletics stadium with the aim of turning it into a football ground. An offer to lease it to nearby Fulham was turned down, so Mears opted to found his own club to use the stadium. As there was already a team named Fulham in the borough, the name of the adjacent borough of Chelsea was chosen for the new club; names like Kensington FC, Stamford Bridge FC and London FC were also considered
+      </p>
+      <p>
+      Chelsea were founded on 10 March 1905 at The Rising Sun pub (now The Butcher's Hook),opposite the present-day main entrance to the ground on Fulham Road, and were elected to the Football League shortly afterwards.
+      </p>
+    <h3>
+      Honours
+      </h3>
+      <table>
+        <tr><th></th>
+          <th> Leagues</th>
+          <th>Cups</th>
+          <th>European</th>
+        </tr>
+        <tr><th>First Division/Premier League</th>
+          <td> 1954–55, 2004–05, <br>
+            2005–06, 2009–10,<br> 2014–15</td>
+        </tr>
+        <tr><th>Second Division</th>
+          <td> 1983–84, 1988–89</td></tr>
+        <tr>
+        <th>FA Cup
+          </th>
+          <td></td>
+          <td> 1969–70, 1996–97,<br> 1999–2000, 2006–07,<br> 2008–09, 2009–10, <br>2011–12</td>
+        </tr>
+        <tr>
+        <th>Football League Cup
+          </th>
+          <td></td>
+          <td> 1964–65, 1997–98, <br>2004–05, 2006–07,<br> 2014–15</td>
+        </tr>
+        <tr>
+        <th>FA Community Shield
+          </th>
+          <td></td>
+          <td><ul><li>1955</li><li> 2000</li><li>2005</li><li> 2009</li></ul></td>
+        </tr>
+        <tr>
+        <th>Full Members Cup
+          </th>
+          <td></td>
+          <td>1985–86, 1989–90</td>
+        </tr>
+   
+        <tr>
+        <th>UEFA Champions League
+          </th>
+          <td></td>
+          <td></td>
+          <td>2011–12</td>
+        </tr>
+   
+        <tr>
+        <th>UEFA Europa League
+          </th>
+          <td></td>
+          <td></td>
+          <td>2012–13</td>
+          
+        </tr>
+   
+        <tr>
+        <th>UEFA Cup Winners' Cup
+          </th>
+          <td></td>
+          <td></td>
+          <td>1970–71, 1997–98</td>
+        </tr>
+  
+        <tr>
+        <th>UEFA Super Cup
+          </th>
+          <td></td>
+          <td></td>
+          <td>1998</td>
+        </tr>
+      </table>  h1{text-align:center;
+  font-family:"Arial Black", Gadget, sans-serif}
+  body{background-color:#3070B3;}
+  table,th,tr,td{border:2px solid black;
+  border-collapse:collapse;}
+  th{font-family:"Comic Sans MS", cursive, sans-serif;}
+  a:hover {
+      color: #BBBB00;
+  }
+  .font{
+      font-family: Verdana, Geneva, sans-serif;
+  }
+  h3{font-family:"Comic Sans MS", cursive, sans-serif;}
+
+
+      <h3>Legends
+      </h3>
+      <ol><li>
+        <a href="https://en.wikipedia.org/wiki/John_Terry">John terry</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Frank_Lampard">Frank Lampard</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Gianfranco_Zola">Gianfranco Zola</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Didier_Drogba">Didier Drogba</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Petr_%C4%8Cech">Petr Cech</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Dennis_Wise">Dennis Wise</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Michael_Essien">Michael Essien</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Bobby_Tambling">Bobby tambling</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Ashley_Cole">Ashley Cole</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Roberto_Di_Matteo">Roberto di Matteo</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Ricardo_Carvalho">Ricardo Carvalho</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Paulo_Ferreira">Paulo Ferreira</a></li>
+        </ul>
+    </div>
+  </body>
+  
+</html>
